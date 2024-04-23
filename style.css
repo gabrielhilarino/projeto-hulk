@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,h2,p{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding: 10px;
+}
+header{
+    background-color: rgba(6, 128, 6, 0.918);
+    text-align: center;
+    padding-top: 40px;
+    min-height: 150px;
+}
+img{
+    height: 600px;
+    width: 600px;
+    border-radius: 20px;
+    
+}
+
