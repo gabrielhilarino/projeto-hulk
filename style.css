@@ -90,12 +90,46 @@ section#redes-sociais img{
     box-sizing: border-box;
 }
 footer{
-    
+
     color:black;
     background-color:rgba(28, 153, 28, 0.966);
     text-align: center;
+    border-radius: 15px;
+
 }
 footer a{
     text-decoration: none;
     color: white;
+}
+.hulkinho,img#Hulk{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+}
+.macarrao ,img#maca{
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin: 0px auto;
+    
+   
+}
+.Elton img#eltinho{
+    display: block;
+    margin: 0px auto;
+
+}
+.video2{
+    
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 15px;
+   
+
+}
+h2#local{
+    text-align: center;
 }

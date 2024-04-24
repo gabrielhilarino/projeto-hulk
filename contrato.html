@@ -4,11 +4,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Crepe do Hulk</title>
+    <link rel="shortcut icon" href="imagens/favicon_io/favicon.ico" type="image/x-icon">
   </head>
   <header>
     <h1 id="buffet">Buffet do Hulk </h1>
     <h2>Sejam Bem-vindo ao mellhor Buffet de Brasília e entorno</h2>
     <br>
+    <div class="hulkinho">
+        <img src="imagens/hulkinho.png" alt="hulkinho" id="Hulk">
+       </div>
   </header>
   <nav>
     <a href="inicial.html">Home</a>
@@ -19,7 +23,40 @@
   </nav>
   <body>
     <main>
+        <section id="redes-sociais">
+
+            <a href="https://www.instagram.com/crepedohulk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="tela"><img src="imagens/logo-instagram.jpg"></a><br>
+      
+            <a href="https://www.facebook.com/profile.php?id=100002417385096&ref=xav_ig_profile_web" target="tela"><img src="imagens/logo-facebook.jpg"></a><br>
+      
+           </section>
+
+           <h1>Cadastro:</h1>
+           <p>Cadastra-se para ficar por dentro das promoções e ser avisado por email!</p>
+           <form action="cadastro.php" method="post" autocomplete="on"></form>
+           <fieldset><legend>Dados Pessoais:</legend>
+            <p><label for="inome">Nome:</label> <input type="text" name="nome" placeholder="Digite seu nome" id="inome" required></p>
+          <p> <label for="isobre">Sobrenome:</label><input type="text" name="nome"  placeholder="Digite seu Nome" id="isobre" required></p>
+            <p><label for="iemail">E-mail:</label><input type="email" name="email" id="iemail" placeholder="nome1234@gmail" required></p>
+            <p><label for="inumero">Contato:</label><input type="phone" name="numero" id="inumero" placeholder="(xx)xxxxx-xxxx" required></p>
+            <p><label for="idate"> Agendar seu evento para quando:</label> <input type="date" name="data" id="idate"></p>
+            
+            
+            <p><input type="submit" name="Cadastrar" value="Cadastrar" id="icadastro"></p>
+
+           </fieldset><br>
+           <p><strong>Atenção:</strong> Entre em Contato com Elton Lopes pelo <strong>WhatsApp:(61)99334-8370</strong> para mais informações.</p>
+            <h2 id="local">Fazemos seu evento no lugar de sua preferência!</h2><br>
+            <div class="video2">
+            <object width="500" height="500">
+                <embed width="500" height="500" src="imagens/Snapinsta.app_video_10000000_803392371667767_245970381610283702_n.mp4">
+              </object>
+            </div>
+            
+  
         
     </main>
+    <footer>Site criado por <strong><a href="https://github.com/gabrielhilarino" target="_blank">Gabriel Hilarino</a></strong> para o <strong><a href="https://www.instagram.com/crepedohulk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Crepe do Hulk ®</a>.</strong>
+    </footer>
   </body>
 </html>
