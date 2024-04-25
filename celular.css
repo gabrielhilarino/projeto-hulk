@@ -1,0 +1,7 @@
+@charset "UTF-8";
+ @media(max-width: 450px) {
+    img{
+        width: 450px;
+        height: 450px;
+    }
+ }
