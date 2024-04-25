@@ -133,3 +133,50 @@ footer a{
 h2#local{
     text-align: center;
 }
+
+/* Tela para Celular*/
+@media screen and (max-width: 575px) {
+
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+  main{
+    max-width: 460px;
+    min-width: 300px;
+    padding: 8px;
+    display: block;
+    margin: auto;
+  
+  }
+   
+    .macarrao ,img#maca{
+        height: 500px;
+        width: 465px;
+        display: block;
+        margin: 0px auto;
+        
+       
+    }
+    .video2{
+    
+        height: 500px;
+        width: 100%;
+        display: block;
+        margin: 0px auto;
+        border-radius: 15px;
+       
+    
+    }
+    #icadastro{
+        display: block;
+        margin: auto;
+    }
+}
