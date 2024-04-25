@@ -6,11 +6,13 @@ padding: 0px;
 font-family: Arial, Helvetica, sans-serif;
 }
 header{
+    width: 100%;
+    float: left;
     text-align: center;
     padding-top: 40px;
     min-height: 150px;
     background-color: rgba(28, 153, 28, 0.966);
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.699);
+    
 }
 p{
     padding: 5px;
@@ -134,23 +136,22 @@ h2#local{
     text-align: center;
 }
 
+
+
 /* Tela para Celular*/
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 390px) {
 
 
     *{
-        margin: 0px;
-        padding: 0px;
         width: 100%;
     }
-
+    
     header{
         width: 100%;
     }
 
   main{
-    max-width: 460px;
-    min-width: 300px;
+    max-width: 390px;
     padding: 8px;
     display: block;
     margin: auto;
@@ -158,8 +159,7 @@ h2#local{
   }
    
     .macarrao ,img#maca{
-        height: 500px;
-        width: 465px;
+        width: 100%;
         display: block;
         margin: 0px auto;
         
@@ -179,4 +179,209 @@ h2#local{
         display: block;
         margin: auto;
     }
+    section#redes-sociais img{
+
+        margin: 20px;
+        margin-right: 10px;
+       
+    }
 }
+/*tela*/
+@media screen and (max-width: 412px) {
+
+        *{
+            width: 100%;
+        }
+       
+    
+      main{
+        max-width: 390px;
+        padding: 8px;
+        display: block;
+        margin: auto;
+      
+      }
+       
+        .macarrao ,img#maca{
+            width: 100%;
+            display: block;
+            margin: 0px auto;
+            
+           
+        }
+        .video2{
+        
+            height: 500px;
+            width: 100%;
+            display: block;
+            margin: 0px auto;
+            border-radius: 15px;
+           
+        
+        }
+        #icadastro{
+            display: block;
+            margin: auto;
+        }
+        section#redes-sociais img{
+    
+            margin: 20px;
+            margin-right: 10px;
+           
+        }
+        html,body,main{
+            width: 100%;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+    }
+    /*tela*/
+    @media screen and (max-width: 414px) {
+
+        *{
+            width: 100%;
+        }
+        
+    
+      main{
+        max-width: 390px;
+        padding: 8px;
+        display: block;
+        margin: auto;
+      
+      }
+       
+        .macarrao ,img#maca{
+            width: 100%;
+            display: block;
+            margin: 0px auto;
+            
+           
+        }
+        .video2{
+        
+            height: 500px;
+            width: 100%;
+            display: block;
+            margin: 0px auto;
+            border-radius: 15px;
+           
+        
+        }
+        #icadastro{
+            display: block;
+            margin: auto;
+        }
+        section#redes-sociais img{
+    
+            margin: 20px;
+            margin-right: 10px;
+           
+        }
+        html,body,main{
+            width: 100%;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+    }
+     /*tel*/
+    @media screen and (max-width: 430px) {
+
+        *{
+            width: 100%;
+        }
+    
+      main{
+        max-width: 390px;
+        padding: 8px;
+        display: block;
+        margin: auto;
+      
+      }
+       
+        .macarrao ,img#maca{
+            width: 100%;
+            display: block;
+            margin: 0px auto;
+            
+           
+        }
+        .video2{
+        
+            height: 500px;
+            width: 100%;
+            display: block;
+            margin: 0px auto;
+            border-radius: 15px;
+           
+        
+        }
+        #icadastro{
+            display: block;
+            margin: auto;
+        }
+        section#redes-sociais img{
+    
+            margin: 20px;
+            margin-right: 10px;
+           
+        }
+        html,body,main{
+            width: 100%;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+
+    }
+    @media screen and (max-width: 456px) {
+
+        *{
+            width: 100%;
+        }
+       
+    
+      main{
+        max-width: 390px;
+        padding: 8px;
+        display: block;
+        margin: auto;
+      
+      }
+       
+        .macarrao ,img#maca{
+            width: 100%;
+            display: block;
+            margin: 0px auto;
+            
+           
+        }
+        .video2{
+        
+            height: 500px;
+            width: 100%;
+            display: block;
+            margin: 0px auto;
+            border-radius: 15px;
+           
+        
+        }
+        #icadastro{
+            display: block;
+            margin: auto;
+        }
+        section#redes-sociais img{
+    
+            margin: 20px;
+            margin-right: 10px;
+           
+        }
+        html,body,main{
+            width: 100%;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+    }
