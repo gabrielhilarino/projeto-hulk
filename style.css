@@ -96,7 +96,7 @@ footer{
     color:black;
     background-color:rgba(28, 153, 28, 0.966);
     text-align: center;
-    border-radius: 15px;
+    border-radius: 1px;
 
 }
 footer a{
@@ -145,7 +145,7 @@ h2#local{
     *{
         width: 100%;
     }
-    
+
     header{
         width: 100%;
     }
