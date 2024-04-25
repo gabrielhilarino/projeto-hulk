@@ -96,7 +96,7 @@ footer{
     color:black;
     background-color:rgba(28, 153, 28, 0.966);
     text-align: center;
-    border-radius: 1px;
+    
 
 }
 footer a{
@@ -136,58 +136,9 @@ h2#local{
     text-align: center;
 }
 
+/* Para Celulares */
 
-
-/* Tela para Celular*/
-@media screen and (max-width: 390px) {
-
-
-    *{
-        width: 100%;
-    }
-
-    header{
-        width: 100%;
-    }
-
-  main{
-    max-width: 390px;
-    padding: 8px;
-    display: block;
-    margin: auto;
-  
-  }
-   
-    .macarrao ,img#maca{
-        width: 100%;
-        display: block;
-        margin: 0px auto;
-        
-       
-    }
-    .video2{
-    
-        height: 500px;
-        width: 100%;
-        display: block;
-        margin: 0px auto;
-        border-radius: 15px;
-       
-    
-    }
-    #icadastro{
-        display: block;
-        margin: auto;
-    }
-    section#redes-sociais img{
-
-        margin: 20px;
-        margin-right: 10px;
-       
-    }
-}
-/*tela*/
-@media screen and (max-width: 412px) {
+   @media screen and (min-width: 300px) and (max-width: 600px) {
 
         *{
             width: 100%;
@@ -235,153 +186,4 @@ h2#local{
             margin: auto;
             text-align: center;
         }
-    }
-    /*tela*/
-    @media screen and (max-width: 414px) {
-
-        *{
-            width: 100%;
-        }
-        
-    
-      main{
-        max-width: 390px;
-        padding: 8px;
-        display: block;
-        margin: auto;
-      
-      }
-       
-        .macarrao ,img#maca{
-            width: 100%;
-            display: block;
-            margin: 0px auto;
-            
-           
-        }
-        .video2{
-        
-            height: 500px;
-            width: 100%;
-            display: block;
-            margin: 0px auto;
-            border-radius: 15px;
-           
-        
-        }
-        #icadastro{
-            display: block;
-            margin: auto;
-        }
-        section#redes-sociais img{
-    
-            margin: 20px;
-            margin-right: 10px;
-           
-        }
-        html,body,main{
-            width: 100%;
-            display: block;
-            margin: auto;
-            text-align: center;
-        }
-    }
-     /*tel*/
-    @media screen and (max-width: 430px) {
-
-        *{
-            width: 100%;
-        }
-    
-      main{
-        max-width: 390px;
-        padding: 8px;
-        display: block;
-        margin: auto;
-      
-      }
-       
-        .macarrao ,img#maca{
-            width: 100%;
-            display: block;
-            margin: 0px auto;
-            
-           
-        }
-        .video2{
-        
-            height: 500px;
-            width: 100%;
-            display: block;
-            margin: 0px auto;
-            border-radius: 15px;
-           
-        
-        }
-        #icadastro{
-            display: block;
-            margin: auto;
-        }
-        section#redes-sociais img{
-    
-            margin: 20px;
-            margin-right: 10px;
-           
-        }
-        html,body,main{
-            width: 100%;
-            display: block;
-            margin: auto;
-            text-align: center;
-        }
-
-    }
-    @media screen and (max-width: 456px) {
-
-        *{
-            width: 100%;
-        }
-       
-    
-      main{
-        max-width: 390px;
-        padding: 8px;
-        display: block;
-        margin: auto;
-      
-      }
-       
-        .macarrao ,img#maca{
-            width: 100%;
-            display: block;
-            margin: 0px auto;
-            
-           
-        }
-        .video2{
-        
-            height: 500px;
-            width: 100%;
-            display: block;
-            margin: 0px auto;
-            border-radius: 15px;
-           
-        
-        }
-        #icadastro{
-            display: block;
-            margin: auto;
-        }
-        section#redes-sociais img{
-    
-            margin: 20px;
-            margin-right: 10px;
-           
-        }
-        html,body,main{
-            width: 100%;
-            display: block;
-            margin: auto;
-            text-align: center;
-        }
-    }
+    } 
