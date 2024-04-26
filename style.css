@@ -151,6 +151,48 @@ h2#local{
     text-align: center;
 }
 
+input#icadastro[type=submit]{
+    display: block;
+    color: white;
+    background-color: green;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input#icadastro[type=submit]:hover{
+    background-color: rgba(0, 128, 0, 0.575);
+}
+fieldset{
+    background-image: linear-gradient(340deg, #9d96fd 0, #7982f6 25%, #4870ee 50%, #005fe6 75%, #0051df 100%);
+    border-radius: 5px;
+    border: none;
+}
+legend{
+    display: block;
+    margin: 0px auto;
+    position: absolute;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.inputs{
+    color: white;
+    padding-top: 20px;
+}
+input{
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    }
+ input:hover{
+    transform: translate(-3px , -3px)
+ }   
+
 /* Para Celulares */
 
    @media screen and (min-width: 300px) and (max-width: 600px) {

@@ -40,13 +40,18 @@
 
            <h1>Cadastro:</h1>
            <p>Cadastra-se para ficar por dentro das promoções e ser avisado por email!</p>
+
            <form action="cadastro.php" method="post" autocomplete="on"></form>
+
            <fieldset><legend>Dados Pessoais:</legend>
+
+          <div class="inputs">
             <p><label for="inome">Nome:</label> <input type="text" name="nome" placeholder="Digite seu nome" id="inome" required></p>
           <p> <label for="isobre">Sobrenome:</label><input type="text" name="nome"  placeholder="Digite seu Nome" id="isobre" required></p>
             <p><label for="iemail">E-mail:</label><input type="email" name="email" id="iemail" placeholder="nome1234@gmail" required></p>
             <p><label for="inumero">Contato:</label><input type="phone" name="numero" id="inumero" placeholder="(xx)xxxxx-xxxx" required></p>
-            <p><label for="idate"> Agendar seu evento para quando:</label> <input type="date" name="data" id="idate"></p>
+            <p><label for="idate"> Agendar para:</label> <input type="date" name="data" id="idate"></p>
+          </div>
             
             
             <p><input type="submit" name="Cadastrar" value="Cadastrar" id="icadastro"></p>
