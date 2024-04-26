@@ -21,6 +21,8 @@ header{
     padding-top: 40px;
     min-height: 150px;
     background-color: rgba(28, 153, 28, 0.966);
+    padding-right: 40px;
+   
     
 }
 p{
@@ -39,6 +41,7 @@ h1#equipe{
     padding-top: 5px;
 }
 main{
+    
     padding: 20px;
     background-color: rgba(85, 166, 233, 0.411);
     border: 2px solid rgba(0, 0, 0, 0.945);
@@ -58,6 +61,7 @@ nav{
     background-color: rgba(28, 153, 28, 0.966) ;
     padding: 10px;
     box-shadow: 0px 7px 9px black;
+    padding-right: 30px;
 }
 nav > a{
     color: white;
@@ -153,7 +157,9 @@ h2#local{
 
         *{
             width: 100%;
+            
         }
+      
        
     
       main{
@@ -200,7 +206,7 @@ h2#local{
        
     } 
     /* tirando o menu para pc*/
-    
+
     @media screen and (min-width: 768px) {
 
         #iburguer{
