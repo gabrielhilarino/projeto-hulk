@@ -36,7 +36,7 @@
   <br>
   
   
-  <body>
+  <body onresize="mudouTamanho()">
     <main>
       
       <section id="redes-sociais">
@@ -100,7 +100,16 @@
     <footer>Site criado por <strong><a href="https://github.com/gabrielhilarino" target="_blank">Gabriel Hilarino</a></strong> para o <strong><a href="https://www.instagram.com/crepedohulk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Crepe do Hulk ® </a>.</strong>
     </footer>
 <script>
-    function clickMenu(){
+  function mudouTamanho(){
+    if(window.innerWidth >= 768){
+      itens.style.display = 'block'
+    }else{
+      itens.style.display = 'none'
+    }
+
+  }
+    
+  function clickMenu(){
       if(itens.style.display == 'block'){
         itens.style.display = 'none'
       }else{
