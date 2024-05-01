@@ -5,13 +5,22 @@ margin: 0px;
 padding: 0px;
 font-family: Arial, Helvetica, sans-serif;
 }
+
+:root{
+    --cor3:#2fa866;
+    --cor5:#063d1e;
+}
 span#iburguer{
     color: white;
-    padding: 10px;
+    padding: 20px;
+    overflow-x: hidden
+    
+    
 }
 span#iburguer:hover{
-    background-color: black;
-    color: red;
+    background-color:var(--cor3);
+    color:black;
+    
     
 }
 header{
@@ -20,9 +29,11 @@ header{
     text-align: center;
     padding-top: 40px;
     min-height: 150px;
-    background-color: rgba(28, 153, 28, 0.966);
-    padding-right: 40px;
+    background-image:linear-gradient(to bottom,var(--cor3),var(--cor5));
+    /* aqui era um padding */
     position: sticky;
+    color: white;
+    overflow-x: hidden
    
     
 }
@@ -42,6 +53,7 @@ h1#equipe{
     padding-top: 5px;
 }
 main{
+    overflow-x: hidden;
     padding: 20px;
     background-color: rgba(85, 166, 233, 0.411);
     border: 2px solid rgba(0, 0, 0, 0.945);
@@ -58,7 +70,7 @@ main{
      
 }
 nav{
-    background-color: rgba(28, 153, 28, 0.966) ;
+    background-image:linear-gradient(to bottom,var(--cor3),var(--cor5));
     padding: 10px;
     box-shadow: 0px 7px 9px black;
     padding-right: 30px;
@@ -71,8 +83,8 @@ nav > a{
     border-radius: 5px;
    }
    nav > a:hover{
-    background-color: black;
-    color: red;
+    background-color: rgb(8, 168, 80);
+    color: black;
     transition-duration: 1s;
    }
    h1#crepe{
@@ -111,7 +123,7 @@ section#redes-sociais img{
 footer{
 
     color:black;
-    background-color:rgba(28, 153, 28, 0.966);
+    background-color:var(--cor3);
     text-align: center;
     
 
@@ -200,18 +212,16 @@ input{
    @media screen and (min-width: 300px) and (max-width: 600px) {
 
         *{
-            width: 100%;
-            
+            width: 100vw;
+        }  
+        header{
+            padding-right: 43px;
         }
-      
-       
-    
-      main{
+     main{
+        padding-left: auto;
+        padding-right: auto;
         
-        display: block;
-        margin: auto;
-      
-      }
+     }
        
         .macarrao ,img#maca{
             width: 100%;
