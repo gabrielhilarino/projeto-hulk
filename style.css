@@ -22,6 +22,7 @@ header{
     min-height: 150px;
     background-color: rgba(28, 153, 28, 0.966);
     padding-right: 40px;
+    position: sticky;
    
     
 }
@@ -41,7 +42,6 @@ h1#equipe{
     padding-top: 5px;
 }
 main{
-    
     padding: 20px;
     background-color: rgba(85, 166, 233, 0.411);
     border: 2px solid rgba(0, 0, 0, 0.945);
@@ -92,8 +92,10 @@ nav > a{
     
  }
 
+
  section#redes-sociais{
     text-align: right;
+    padding: 5px;
 }
 section#redes-sociais img:hover{
     border: 2px solid rgba(226, 14, 14, 0.575);
@@ -205,8 +207,7 @@ input{
        
     
       main{
-        max-width: 390px;
-        padding: 8px;
+        
         display: block;
         margin: auto;
       
@@ -244,6 +245,9 @@ input{
             display: block;
             margin: auto;
             text-align: center;
+        }
+        footer{
+          display: none;
         }
        
     } 
